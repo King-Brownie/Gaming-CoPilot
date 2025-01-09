@@ -1,21 +1,10 @@
 [phases]
     setup = [
       "nodejs-18_x",
-      "npm",
-      "libnss3",
-      "libatk1.0-0",
-      "libatk-bridge2.0-0",
-      "libcups2",
-      "libgbm1",
-      "libasound2",
-      "libpangocairo-1.0-0",
-      "libxss1",
-      "libgtk-3-0",
-      "libxshmfence1",
-      "libglu1"
+      "npm"
     ]
-    install = "npm run ci --verbose"
-    build = "npm run build --verbose"
+    install = "npm install --omit=dev --no-audit --no-fund --prefer-offline"
+    build = "npm run build"
     start = "npm run start"
     
     [config]
