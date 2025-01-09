@@ -14,6 +14,12 @@
       "libxshmfence1",
       "libglu1"
     ]
-    install = "npm run ci"
-    build = "npm run build"
+    install = "npm run ci --verbose"
+    build = "npm run build --verbose"
     start = "npm run start"
+    
+    [config]
+    node_version = "18"
+    npm_version = "9"
+    max_install_time = 1800
+    max_build_time = 1800
