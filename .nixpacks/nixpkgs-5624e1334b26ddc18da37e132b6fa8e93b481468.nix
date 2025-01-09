@@ -15,4 +15,9 @@
         pkgs.libxshmfence
         pkgs.libGLU
       ];
+      
+      shellHook = ''
+        export NPM_CONFIG_PRODUCTION=true
+        export NPM_CONFIG_OMIT=dev
+      '';
     }
