@@ -3,8 +3,8 @@
       "nodejs-18_x",
       "npm"
     ]
-    install = "npm install --omit=dev --no-audit --no-fund --prefer-offline --verbose"
-    build = "npm run build --verbose"
+    install = "npm install --omit=dev --no-audit --no-fund --prefer-offline"
+    build = "npm run build"
     start = "npm run start"
     
     [config]
@@ -12,4 +12,3 @@
     npm_version = "9"
     max_install_time = 1800
     max_build_time = 1800
-    healthcheck = { test = ["CMD", "node", "-e", "console.log('Health check passed')"], interval = "30s", timeout = "10s", retries = 3 }

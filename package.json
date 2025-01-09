@@ -8,8 +8,7 @@
         "build": "vite build --logLevel info",
         "train": "node scripts/train.js",
         "install:prod": "npm install --omit=dev --no-audit --no-fund",
-        "ci": "npm install --omit=dev --no-audit --no-fund --prefer-offline --verbose",
-        "healthcheck": "node -e \"console.log('Health check passed')\""
+        "ci": "npm install --omit=dev --no-audit --no-fund --prefer-offline"
       },
       "dependencies": {
         "electron": "^28.0.0",
