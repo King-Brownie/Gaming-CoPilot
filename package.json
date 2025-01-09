@@ -1,0 +1,22 @@
+{
+      "name": "ai-gaming-copilot",
+      "version": "1.0.0",
+      "main": "src/main.js",
+      "scripts": {
+        "start": "electron .",
+        "dev": "vite",
+        "build": "vite build",
+        "train": "node scripts/train.js"
+      },
+      "dependencies": {
+        "electron": "^28.0.0",
+        "onnxruntime-node": "^1.16.3",
+        "puppeteer": "^21.7.0",
+        "sharp": "^0.32.6",
+        "ws": "^8.13.0"
+      },
+      "devDependencies": {
+        "vite": "^4.4.9",
+        "electron-builder": "^24.6.4"
+      }
+    }

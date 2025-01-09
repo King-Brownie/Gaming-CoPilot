@@ -1,0 +1,9 @@
+# Cloud Station Update Instructions
+    
+    To apply updates:
+    1. Open the specified file in Cloud Station
+    2. Replace its contents with the provided code
+    3. Save the file
+    4. Run any specified commands
+    
+    Always check the file path in the artifact!

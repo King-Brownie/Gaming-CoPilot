@@ -1,0 +1,10 @@
+{
+      "version": "1.0.0",
+      "lastUpdate": "2023-10-15",
+      "changes": [
+        {
+          "file": "update-instructions.txt",
+          "description": "Initial workflow setup"
+        }
+      ]
+    }

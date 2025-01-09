@@ -1,0 +1,15 @@
+{
+      "video": {
+        "resolution": "1280x720",
+        "fps": 30,
+        "codec": "libx264"
+      },
+      "ai": {
+        "modelPath": "./models/game_analyzer.onnx",
+        "confidenceThreshold": 0.7
+      },
+      "analytics": {
+        "performanceInterval": 5000,
+        "maxGameplayEvents": 1000
+      }
+    }
